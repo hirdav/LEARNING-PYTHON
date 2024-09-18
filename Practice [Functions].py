@@ -42,3 +42,9 @@ def sum_all(*args):
     
 
 print (sum_all(7,2.3,2,2,0,4,21,3.3))
+
+
+int z=4
+int y=6
+
+print(f"{made(z,y)}")
