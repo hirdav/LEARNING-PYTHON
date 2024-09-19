@@ -2,7 +2,7 @@
 
 🐍 Python Learning Repository
 
-📚 This repository contains my practice code and assignments as I learn Python, particularly from the Python Crash Course book or course. It includes Python scripts and Jupyter notebooks for each chapter I am working on.
+📚 This repository contains my practice code and assignments as I learn Python, particularly from the Python Crash Course book . It includes Python scripts and Jupyter notebooks for each chapter I am working on.
 
 
 ---
@@ -45,7 +45,7 @@ Here are some of the resources I’m using for learning Python:
 
 Python Docs: The official Python documentation.
 
-Youtube 
+Youtube etc
 
 
 
