@@ -18,12 +18,12 @@ def made (a,v) :
     results= a+v 
     print ("this function add values of two values")
     return results
-i= "8.9"
-p="op"
-print(f" {i}  and {p} is {made(i,p)}")
+i=7
+p=6
+print(f" {i} plus {p} is {made(i,p)}")
 
 
-def made(a, v):
+def madd(a, v):
     results = str(a) + v  # Convert the number to a string and concatenate
     print("This function concatenates a number and a string.")
     return results
@@ -31,7 +31,7 @@ def made(a, v):
 i = 8.9
 p = "op"
 
-print(f"{i} and {p} is {made(i, p)}")
+print(f"{i} and {p} is {madd(i, p)}")
 
 
 def sum_all(*args):
@@ -43,3 +43,6 @@ def sum_all(*args):
 
 print (sum_all(7,2.3,2,2,0,4,21,3.3))
 
+y=5
+z=10
+print(made(y,z))

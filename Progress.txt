@@ -1,0 +1,99 @@
+Dictionary: 
+list: 
+
+list manupulation 
+-----------------
+
+
+insert: to insert new element 
+-----------------------------
+stock_list=['apple','ril','tamo']
+stock_list.insert(3(index),item['microsoft'])
+result=
+stock_list=['apple','ril','tamo','microsoft']
+
+remove : to remove an item 
+--------------------------
+stock_list=['apple','ril','tamo']
+stock_list.remove('tamo')
+print (stock_list)
+result=['apple','ril']
+
+pop:remove the last item of a list , if do not provide any index it removes the last item of the list
+--------------------------
+stock_list=['apple','ril','tamo']
+stock_list.pop()
+print(stock_list)
+result=['apple','ril']
+
+stock_list.pop(1)
+print(stock_list)
+result=['apple','tamo']
+
+index: it returns the index of an element in a list 
+-----------------------------------------------
+stock_list=['apple','ril','tamo']
+stock_list.index('tamo')
+stock_list=['apple','ril','tamo']
+print(stock_list.index('tamo'))
+print(stock_list.index('ril'))
+
+
+reverse: it reverse the list
+----------------------------
+
+
+sort: to call the list 
+----------------------
+
+stackes: stack is made using append, pop, where LIFO is consider like last in first out . where pop takes out the last element 
+----------------------
+
+stack.append(5)
+Stack=[1,2,4,5]
+
+stack.append(6)
+Stack=[1,2,4,5,6]
+
+stack.pop()
+stack=[1,2,4,5]
+
+stack.pop()
+Stack=[1,2,4]
+stack.pop()
+Stack=[1,2]
+
+Queue: its same as stack but here its function is Fist In First Out [fifo]where popleft is used and remove the fist element
+
+deque is used for faster execution , help to work on both side operation fifo and lifo
+--------------------------------------------------------------------------
+
+from collections import deque 
+
+queue = deque(['apple','mango', 'banana'])
+#introduced deque here by converting the set from queue to deque
+queue.append('cashew')
+queue.append('almond')
+queue.popleft()
+queue.popleft()
+print(queue)
+
+
+
+
+--------------------------------------
+
+
+
+
+
+
+
+
+
+
+Tuple:
+
+
+
+Function:
