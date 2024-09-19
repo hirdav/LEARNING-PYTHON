@@ -43,8 +43,3 @@ def sum_all(*args):
 
 print (sum_all(7,2.3,2,2,0,4,21,3.3))
 
-
-z=4
-y=6 
-
-print(f"{made(z,y)}")
