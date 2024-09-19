@@ -30,4 +30,22 @@ else :
     hold=68
 mposition['mvolume'] = mposition['mvolume']+sell_qty
 print(f"market says to sell : {mposition['mvolume']} qty")
-#---------------------------------------------------------------#
+print("---------------------------------------------------------------")
+
+ticker = { 'symbol': 'apple',
+          'price': '211',
+          'volume': '34212222',
+          'momentum' : '20',
+          'product' :['phone','watch','desktop']
+    
+}
+
+ticker['volume'] = 300000
+# for i , j in ticker :
+if ticker['volume'] ==3000000:
+        print(f"sell{ticker['symbol']} for {ticker['momentum']}")
+else:
+        print (f"{ticker['symbol']} has good product like {ticker['product']}")
+print("good trade")
+
+print("---------------------------------------------------------------")

@@ -124,25 +124,18 @@ from collections import deque
 
 
 queue = deque(['apple','mango', 'banana'])
+
 queue.append('cashew')
 queue.append('almond')
 queue.popleft()
 queue.popleft()
+
+
+queue.extend('7')
+queue.rotate(-4)
+queue.extendleft('6')
+queue.reverse()
 print(queue)
 
 
 
-Task_1=['adding']
-Task_2=['multi']
-Task_3=['subst']
-
-Priority_1=[1]
-Priority_2=[2]
-Priority_3=[3]
-
-Processing_task_1 = Task_1.append(Priority_1)
-Processing_task_2 = Task_2.append(Priority_2)
-Processing_task_3 = Task_3.append(Priority_3)
-
-Task=[ Processing_task_1,Processing_task_2,Processing_task_3]
-print(Task)
