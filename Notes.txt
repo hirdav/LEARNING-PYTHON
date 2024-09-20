@@ -78,8 +78,19 @@ queue.popleft()
 queue.popleft()
 print(queue)
 
+deque.extend[7,8,9,9,1]
+deque.rotate[-4]
+deque.extendleft[4,8,3]
+deque.reverse[-2]
 
 
+---------------------------------------
+to import libraries :
+#import collections as coll
+to get a module from the collections 
+#from collections import deque
+to get what it holds 
+#dir(library_name)
 
 --------------------------------------
 
