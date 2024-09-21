@@ -87,9 +87,9 @@ deque.reverse[-2]
 ---------------------------------------
 to import libraries :
 #import collections as coll
-to get a module from the collections 
+to get a object from the collections 
 #from collections import deque
-to get what it holds 
+to get what it holds [object]
 #dir(library_name)
 
 --------------------------------------
