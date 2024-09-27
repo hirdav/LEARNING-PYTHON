@@ -46,3 +46,12 @@ print (sum_all(7,2.3,2,2,0,4,21,3.3))
 y=5
 z=10
 print(made(y,z))
+
+
+def greet_user (username):
+    print (f"hello  , {username}")
+
+greet_user( 'jig')
+
+
+
