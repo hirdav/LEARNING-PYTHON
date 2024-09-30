@@ -49,9 +49,13 @@ print(made(y,z))
 
 
 def greet_user (username):
+
+    """ greeting user"""
     print (f"hello  , {username}")
 
 greet_user( 'jig')
+
+
 
 
 
