@@ -43,9 +43,9 @@ Here are some of the resources I’m using for learning Python:
 
 🌍 Online Python resources:
 
-Python Docs: The official Python documentation.
+📘 Python Docs: The official Python documentation.
 
-Youtube etc
+📘 Youtube etc
 
 
 
