@@ -93,7 +93,7 @@ to get what it holds [object]
 #dir(library_name)
 
 --------------------------------------
-
+breaking the large classes into smaller classes that work together called Composition
 
 
 
