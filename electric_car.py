@@ -48,8 +48,9 @@ class ElectricCar(Car):
         """Instances as attribute* also we have for various info regarding battery """
         """so battery moved with a class above for effciency """
         """however electic car need the battery attribute so its dialed up here."""
+        """and also called composition"""
         self.battery=Battery() 
-        
+
     def describe_battery (self) :
         """printing a statement of describing battery size"""
         print(f"this car has a {self.battery_size}-- kwh battery ")
