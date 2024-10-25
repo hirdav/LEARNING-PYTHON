@@ -1,4 +1,4 @@
-class Users:
+class User:
     """A simple user class."""
     def __init__(self, first_name, last_name, **other_attributes):
         """Initialize user attributes."""
@@ -24,12 +24,12 @@ class Privileges:
 
     def show_privileges(self):
         """Display the privileges."""
-        print("Privileges: ")
+        
         for privilege in self.privileges:
                 print(f"- {privilege}")
         
 
-class Admin(Users):
+class Admin(User):
     """Admin class inherits from Users."""
     def __init__(self, first_name, last_name, **other_attributes):
         """Initialize the Admin class with user attributes and privileges."""
@@ -37,7 +37,7 @@ class Admin(Users):
         self.privileges = Privileges()  # Create an instance of Privileges class
 
 # Creating an Admin instance and assigning privileges
-admin_user = Admin('John', 'Doe')
-admin_user.privileges.privileges = ["can add post", "can delete post", "can ban user"]
-admin_user.privileges.show_privileges()
+# admin_user = Admin('John', 'Doe')
+# admin_user.privileges.privileges = ["can add post", "can delete post", "can ban user"]
+# admin_user.privileges.show_privileges()
 
