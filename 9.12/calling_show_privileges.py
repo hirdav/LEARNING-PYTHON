@@ -2,6 +2,7 @@
 
 from Privileges_1 import Admin as P
 
-show=P(['yiiu','tyfh','twtrd'])
-show.privileges=['rrr','yyy']
-show.show_privileges()
+show=P('io','ud',p=34, p1=23)
+print(f"{show.first_name},{show.last_name}")
+show.privileges.privileges=['E$$','2&8']
+show.privileges.show_privileges()
