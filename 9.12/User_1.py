@@ -17,3 +17,5 @@ class User:
     def greet_user(self):
         """Greet the user."""
         print(f"Hello, {self.first_name}!")
+
+
