@@ -1,0 +1,45 @@
+What are the advantages of DBMS over file processing system.
+
+
+The advantages of a Database Management System (DBMS) over a File Processing System are numerous and can be categorized as follows:
+
+1. Data Redundancy Control
+File Processing System: Data is often duplicated across files, leading to redundancy and inconsistency.
+DBMS: Minimizes redundancy by maintaining a single, centralized database where data can be shared among multiple users and applications.
+2. Data Integrity
+File Processing System: Ensuring accuracy and consistency of data across files is challenging and requires manual checks.
+DBMS: Enforces integrity constraints (e.g., primary keys, foreign keys) to ensure data remains accurate and consistent.
+3. Data Security
+File Processing System: Provides minimal data security, with limited access control.
+DBMS: Offers robust security features, including user authentication and authorization mechanisms, to control who can access or modify the data.
+4. Data Sharing and Concurrent Access
+File Processing System: Sharing data between different applications or users is difficult, and concurrency control (multiple users accessing the same file) is often limited or nonexistent.
+DBMS: Allows multiple users and applications to access and manipulate the data concurrently with proper locking mechanisms to avoid conflicts.
+5. Backup and Recovery
+File Processing System: Backups have to be handled manually, and recovery from system failures can be complicated and time-consuming.
+DBMS: Provides automated backup and recovery features, enabling easier restoration of data in case of hardware or software failure.
+6. Data Independence
+File Processing System: Data structures are hardcoded within applications, making changes to data storage difficult and requiring modifications to applications.
+DBMS: Separates data from the applications, allowing changes to data structure without affecting the overall system or requiring application changes.
+7. Efficient Query Processing
+File Processing System: Searching and retrieving data often requires custom, manual coding, leading to inefficiencies.
+DBMS: Provides high-level query languages (like SQL), enabling efficient and optimized data retrieval and manipulation.
+8. Reduced Application Development Time
+File Processing System: Each application typically handles its own data storage and processing, requiring significant time and effort.
+DBMS: Centralized data management reduces development time by allowing applications to interact with a shared database instead of individual files.
+9. Data Abstraction
+File Processing System: Users must understand the internal structure of files to interact with them.
+DBMS: Provides multiple levels of data abstraction (physical, logical, and view levels) to hide the complexity of how data is stored.
+10. Transaction Management
+File Processing System: Lacks built-in transaction management, making it difficult to ensure that multiple related operations either complete entirely or not at all.
+DBMS: Supports transaction management, ensuring atomicity, consistency, isolation, and durability (ACID properties) in all transactions.
+11. Centralized Management
+File Processing System: Each file is managed independently, leading to duplication of effort and inefficiencies.
+DBMS: Centralizes management of the data, improving administration, monitoring, and tuning of the database.
+These features make DBMS far more efficient, secure, and scalable than traditional file processing systems.
+
+
+
+
+
+
