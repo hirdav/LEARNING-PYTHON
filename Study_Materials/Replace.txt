@@ -1,0 +1,58 @@
+from pathlib import Path 
+path = Path('Learning_Python.txt')
+redo = path.read_text()
+dido = redo.splitlines()
+dido.replace('Python','C')
+
+
+
+error :  
+{
+	"name": "AttributeError",
+	"message": "'list' object has no attribute 'replace'",
+	"stack": "---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+Cell In[24], line 5
+      3 redo = path.read_text()
+      4 dido = redo.splitlines()
+----> 5 dido.replace('Python','C')
+
+AttributeError: 'list' object has no attribute 'replace'"
+}
+
+
+to fix it :  
+It looks like there's a small issue with the code. The `replace` method in Python works on strings, but `dido` is a list, not a single string. To replace `'Python'` with `'C'` in each line, you need to iterate over the list `dido` and replace `'Python'` with `'C'` in each line individually.
+
+Here's how to modify your code:
+
+
+from pathlib import Path 
+
+# Read the file content
+path = Path('Learning_Python.txt')
+redo = path.read_text()
+
+# Split the content into lines
+dido = redo.splitlines()
+
+# Replace 'Python' with 'C' in each line
+dido = [line.replace('Python', 'C') for line in dido]
+
+# Join the lines back together if needed, for example, to print or write back to a file
+modified_content = '\n'.join(dido)
+
+# Print the modified content
+print(modified_content)
+```
+
+Explanation:
+1. `dido = [line.replace('Python', 'C') for line in dido]`: This list comprehension replaces `'Python'` with `'C'` in each line of `dido`.
+2. `modified_content = '\n'.join(dido)`: Combines the list `dido` back into a single string with newline characters separating each line, so it looks like the original format.
+
+To write the modified content back to the file,
+
+
+path.write_text(modified_content)
+
+
