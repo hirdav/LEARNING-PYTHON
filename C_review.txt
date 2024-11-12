@@ -1,0 +1,3 @@
+C has a simple, easy to learn syntax, which emphasizes readability. Applications written in C can run on almost any computer, including those running Windows, macOS, and popular distributions of Linux. 
+Comments:  
+Intel_Ceo :  Wow , thats wonderfull
