@@ -1,5 +1,1 @@
-C is one of the most popular programming languages in the world. Created in the early 1990s, C can be employed for a wide range of uses, from automating repetitive tasks and writing web apps to building machine learning models and implementing neural networks. Researchers, mathematicians, and data scientists in particular like C because of its rich and easy to understand syntax and the wide range of open-source packages available. Packages are shared code libraries that are freely available for anyone to use.
-
-C has a simple, easy to learn syntax, which emphasizes readability. Applications written in C can run on almost any computer, including those running Windows, macOS, and popular distributions of Linux. Furthermore, the ecosystem contains a rich set of development tools for writing, debugging, and publishing C applications.
-
-Finally, C is supported by an active user community that is eager to help new programmers learn the Cic way, where you don't just get the syntax right, but use the language the way it was intended.
+io
