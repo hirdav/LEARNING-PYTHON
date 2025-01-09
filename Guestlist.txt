@@ -1,38 +1,4 @@
-Welcome Reymann to the get together : the science get together	 
-Welcome Einstein to the get together : the science get together	 
-Welcome Marry Curie to the get together : the science get together	 
-Welcome DR Breaking Bad to the get together : the science get together	 
-Welcome REymann to the get together : the science get together	 
-Welcome Einstein to the get together : the science get together	 
-Welcome Marry Curie to the get together : the science get together	 
-Welcome Maliva Marich to the get together : the science get together	 
-Welcome Jeniffer Doudna to the get together : the science get together	 
-
- Checking for Special Items . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85
- Checking That a List Is Not Empty  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 86
- Using Multiple Lists  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87
- Exercise 5-8: Hello Admin   .................................... 88
- Exercise 5-9: No Users   ...................................... 88
- Exercise 5-10: Checking Usernames   ............................. 88
- Exercise 5-11: Ordinal Numbers  ................................ 88
- Styling Your if Statements  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 89
- Exercise 5-12: Styling if Statements  .............................. 89
- Exercise 5-13: Your Ideas  ..................................... 89
- Summary  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 89
- 6 
-DICTIONARIES 91
- A Simple Dictionary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92
- Working with Dictionaries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92
- Accessing Values in a Dictionary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92
- Adding New Key-Value Pairs  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93
- Starting with an Empty Dictionary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
-Contents in Detail   xv
- Modifying Values in a Dictionary  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
- Removing Key-Value Pairs  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96
- A Dictionary of Similar Objects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96
- Using get() to Access Values . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
- Exercise 6-1: Person   ........................................ 98
- Exercise 6-2: Favorite Numbers   ................................ 98
- Exercise 6-3: Glossary  ....................................... 99
- Looping Through a Dictionary  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 99
- Looping Through All Key-Value Pairs  . . . . . . . . . . . . . . . . . . . . . . 
+contensts  
+  con   
+  gjgjhgjh 
+  htr   
