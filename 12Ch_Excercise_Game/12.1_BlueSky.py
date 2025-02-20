@@ -9,7 +9,7 @@ class Bluesky :
         self.screen = pygame.display.set_mode((800,600))
         pygame.display.set_caption ("Alien_Capture")
         #set the bg color
-        self.bg_color = (230,250,230)
+        self.bg_color = (1,1,250)
     def run_game(self):
     
         """start the loop for input action """
